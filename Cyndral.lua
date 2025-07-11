@@ -2,7 +2,7 @@ repeat wait() until game:IsLoaded()
 wait(10)
 
 getgenv().Config = {
-    ["Time To Sell"] = 5, -- Seconds
+    ["Time To Sell"] = 15, -- Seconds
     ["Craft Event"] = {
         ["Crafters Seed Pack"] = true,
         ["Anti Bee Egg"] = true
