@@ -1,5 +1,1 @@
-local Library = 'https://raw.githubusercontent.com/vurelix/loader/refs/head/main/'
-local Url = Library .. game.PlaceId .. '.lua'
-
-loadstring(game:HttpGet(Url))()
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vurelix/loader/refs/heads/main/126884695634066.lua'))()
