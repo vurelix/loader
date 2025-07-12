@@ -26,7 +26,21 @@ getgenv().Config = {
         ["Banana"] = 44,
         ["Prickly Pear"] = 44,
         ["Watermelon"] = 44,
-        ["Kiwi"] = 44
+        ["Kiwi"] = 44,
+        ["Bamboo"] = 44,
+        ["Coconut"] = 44,
+        ["Cactus"] = 44,
+        ["Dragon Fruit"] = 44,
+        ["Mango"] = 44,
+        ["Grape"] = 44,
+        ["Mushroom"] = 44,
+        ["Pepper"] = 44,
+        ["Cacao"] = 44,
+        ["Beanstalk"] = 44,
+        ["Ember Lily"] = 44,
+        ["Burning Bud"] = 44,
+        ["Sugar Apple"] = 44,
+
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["Egg"] = {
@@ -105,7 +119,9 @@ getgenv().Config = {
         ["Name Pet Equip"] = {
             ["Night Owl"] = true,
             ["Chicken"] = true,
-            ["Golden Lab"] = true
+            ["Golden Lab"] = true,
+            ["Raptor"] = true,
+            ["Bee"] = true,
         },
         ["Max Slot Pet To Sell"] = 1, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
