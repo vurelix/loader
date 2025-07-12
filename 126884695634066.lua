@@ -83,7 +83,7 @@ getgenv().Config = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Mode Destroy"] = "Auto", -- "Custom"
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot", "Tomato", "Daffodil"},
-        ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
+        ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare"},
         ["Destroy Untill"] = 150
     },
     ["Url"] = "https://discord.com/api/webhooks/1393307935395942500/7vZz4DpR7hyPTicEpL-xysc2U9gv5snPNk7Ott73CsdvpHlRsse9_e6L12s6tuu0lXgH", -- Webhook 
