@@ -9,7 +9,7 @@ getgenv().Config = {
     },
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
-    ["Mode Plant"] = "Custom", -- "Custom"
+    ["Mode Plant"] = "Auto", -- "Custom"
 
     ["Seed"] = { -- Seed Plant Custom
         ["Strawberry"] = 0,
