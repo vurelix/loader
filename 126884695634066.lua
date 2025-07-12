@@ -81,7 +81,7 @@ getgenv().Config = {
                        "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Mode Destroy"] = "Auto", -- "Custom"
+        ["Mode Destroy"] = "Custom", -- "Custom"
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot", "Tomato", "Daffodil"},
         ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare"},
         ["Destroy Untill"] = 150
@@ -128,7 +128,7 @@ getgenv().Config = {
         ["Enable Rejoin After X Time"] = false,
         ["Rejoin After X Time"] = 60 -- Minutes
     },
-    ["Limit Tree"] = 250,
+    ["Limit Tree"] = 500,
     ["White Screen"] = true
 }
 
