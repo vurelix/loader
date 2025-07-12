@@ -140,8 +140,7 @@ getgenv().Config = {
         ["Weight"] = 10 -- if Weight >= 10 they will send wh
     },
     ["Rejoin Mode"] = {
-        ["Auto Rejoin When Error Module Egg"] = true,
-        ["Auto rejoin on script update"] = true,
+        ["Auto rejoin on script update"] = false,
         ["Enable Rejoin After X Time"] = false,
         ["Rejoin After X Time"] = 60 -- Minutes
     },
