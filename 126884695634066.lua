@@ -70,7 +70,7 @@ getgenv().Config = {
 
     ["Sprinkler"] = {
         ["Place Sprinkler"] = true,
-        ["Buy Sprinkler"] = false,
+        ["Buy Sprinkler"] = true,
         ["Basic Sprinkler"] = true,
         ["Advanced Sprinkler"] = true,
         ["Master Sprinkler"] = true,
