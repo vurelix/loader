@@ -9,15 +9,15 @@ getgenv().Config = {
     },
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
-    ["Mode Plant"] = "Auto", -- "Custom"
+    ["Mode Plant"] = "Custom", -- "Custom"
 
     ["Seed"] = { -- Seed Plant Custom
-        ["Strawberry"] = 44,
-        ["Blueberry"] = 44,
-        ["Tomato"] = 44,
+        ["Strawberry"] = 0,
+        ["Blueberry"] = 0,
+        ["Tomato"] = 0,
         ["Loquat"] = 44,
         ["Pineapple"] = 44,
-        ["Carrot"] = 44,
+        ["Carrot"] = 0,
         ["Bell Pepper"] = 44,
         ["Green Apple"] = 44,
         ["Feijoa"] = 44,
@@ -80,7 +80,7 @@ getgenv().Config = {
     ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
                        "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex"},
     ["Destroy Mode"] = {
-        ["Auto Destroy when have money"] = 0, -- its will destroy all trees select when money >= select
+        ["Auto Destroy when have money"] = 100000, -- its will destroy all trees select when money >= select
         ["Mode Destroy"] = "Custom", -- "Custom"
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot", "Tomato", "Daffodil"},
         ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
@@ -104,7 +104,8 @@ getgenv().Config = {
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
             ["Night Owl"] = true,
-            ["Chicken"] = true
+            ["Chicken"] = true,
+            ["Golden Lab"] = true
         },
         ["Max Slot Pet To Sell"] = 1, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
