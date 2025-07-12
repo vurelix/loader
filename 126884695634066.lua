@@ -9,7 +9,7 @@ getgenv().Config = {
     },
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
-    ["Mode Plant"] = "Auto", -- "Custom"
+    ["Mode Plant"] = "Custom", -- "Custom"
 
     ["Seed"] = { -- Seed Plant Custom
         ["Strawberry"] = 44,
@@ -80,11 +80,11 @@ getgenv().Config = {
     ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
                        "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex"},
     ["Destroy Mode"] = {
-        ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Mode Destroy"] = "Custom", -- "Custom"
+        ["Auto Destroy when have money"] = 0, -- its will destroy all trees select when money >= select
+        ["Mode Destroy"] = "Auto", -- "Custom"
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot", "Tomato", "Daffodil"},
         ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare"},
-        ["Destroy Untill"] = 250
+        ["Destroy Untill"] = 500
     },
     ["Url"] = "https://discord.com/api/webhooks/1393307935395942500/7vZz4DpR7hyPTicEpL-xysc2U9gv5snPNk7Ott73CsdvpHlRsse9_e6L12s6tuu0lXgH", -- Webhook 
 
@@ -128,7 +128,7 @@ getgenv().Config = {
         ["Enable Rejoin After X Time"] = false,
         ["Rejoin After X Time"] = 60 -- Minutes
     },
-    ["Limit Tree"] = 350,
+    ["Limit Tree"] = 800,
     ["White Screen"] = true
 }
 
