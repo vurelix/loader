@@ -40,7 +40,11 @@ getgenv().Config = {
         ["Ember Lily"] = 44,
         ["Burning Bud"] = 44,
         ["Sugar Apple"] = 44,
-
+        ["Giant Pineapple"] = 44,
+        ["Grand Volcania"] = 44,
+        ["Amber Spine"] = 44,
+        ["Lingonberry"] = 44,
+        ["Horsetail"] = 44,
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["Egg"] = {
