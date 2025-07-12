@@ -2,7 +2,7 @@ repeat wait() until game:IsLoaded()
 wait(10)
 
 getgenv().Config = {
-    ["Time To Sell"] = 5, -- Seconds
+    ["Time To Sell"] = 15, -- Seconds
     ["Craft Event"] = {
         ["Crafters Seed Pack"] = true,
         ["Anti Bee Egg"] = true
@@ -12,21 +12,21 @@ getgenv().Config = {
     ["Mode Plant"] = "Auto", -- "Custom"
 
     ["Seed"] = { -- Seed Plant Custom
-        ["Strawberry"] = 50,
-        ["Blueberry"] = 50,
-        ["Tomato"] = 50,
-        ["Loquat"] = 50,
-        ["Pineapple"] = 50,
-        ["Carrot"] = 50,
-        ["Bell Pepper"] = 50,
-        ["Green Apple"] = 50,
-        ["Feijoa"] = 50,
-        ["Avocado"] = 50,
-        ["Sugar Apple"] = 50,
-        ["Banana"] = 50,
-        ["Prickly Pear"] = 50,
-        ["Watermelon"] = 50,
-        ["Kiwi"] = 50
+        ["Strawberry"] = 44,
+        ["Blueberry"] = 44,
+        ["Tomato"] = 44,
+        ["Loquat"] = 44,
+        ["Pineapple"] = 44,
+        ["Carrot"] = 44,
+        ["Bell Pepper"] = 44,
+        ["Green Apple"] = 44,
+        ["Feijoa"] = 44,
+        ["Avocado"] = 44,
+        ["Sugar Apple"] = 44,
+        ["Banana"] = 44,
+        ["Prickly Pear"] = 44,
+        ["Watermelon"] = 44,
+        ["Kiwi"] = 44
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["Egg"] = {
@@ -83,10 +83,10 @@ getgenv().Config = {
         ["Auto Destroy when have money"] = 0, -- its will destroy all trees select when money >= select
         ["Mode Destroy"] = "Custom", -- "Custom"
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot", "Tomato", "Daffodil"},
-        ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare"},
+        ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
         ["Destroy Untill"] = 150
     },
-    ["Url"] = "https://discord.com/api/webhooks/1393307935395942500/7vZz4DpR7hyPTicEpL-xysc2U9gv5snPNk7Ott73CsdvpHlRsse9_e6L12s6tuu0lXgH", -- Webhook 
+    ["Url"] = "https://discord.com/api/webhooks/1393307935395942440/7vZz4DpR7hyPTicEpL-xysc2U9gv5snPNk7Ott73CsdvpHlRsse9_e6L12s6tuu0lXgH", -- Webhook 
 
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
