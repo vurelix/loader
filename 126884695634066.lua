@@ -106,8 +106,8 @@ getgenv().Config = {
     },
     ["Url"] = "https://discord.com/api/webhooks/1393307935395942440/7vZz4DpR7hyPTicEpL-xysc2U9gv5snPNk7Ott73CsdvpHlRsse9_e6L12s6tuu0lXgH", -- Webhook 
 
-    ["Boost FPS"] = false,
-    ["Black Screen"] = false,
+    ["Boost FPS"] = true,
+    ["Black Screen"] = true,
     ["Dino Event"] = {
         ["Auto Claim Quest"] = true,
         ["Auto Restart Quest"] = true,
@@ -123,7 +123,7 @@ getgenv().Config = {
         ["Name Pet Equip"] = {
             ["Night Owl"] = true,
             ["Chicken"] = true,
-            ["Golden Lab"] = true,
+            ["Stegosaurus"] = true,
             ["Raptor"] = true,
             ["Bee"] = true,
         },
@@ -144,12 +144,13 @@ getgenv().Config = {
         ["Weight"] = 10 -- if Weight >= 10 they will send wh
     },
     ["Rejoin Mode"] = {
+        ["Auto Rejoin When Error Module Egg"] = true,
         ["Auto rejoin on script update"] = false,
         ["Enable Rejoin After X Time"] = false,
         ["Rejoin After X Time"] = 60 -- Minutes
     },
     ["Limit Tree"] = 250,
-    ["White Screen"] = false
+    ["White Screen"] = true
 }
 
 script_key="TDuPyrufKhPobLrVfGxuMtuiCDplxXUQ";
