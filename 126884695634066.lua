@@ -106,8 +106,8 @@ getgenv().Config = {
     },
     ["Url"] = "https://discord.com/api/webhooks/1393307935395942440/7vZz4DpR7hyPTicEpL-xysc2U9gv5snPNk7Ott73CsdvpHlRsse9_e6L12s6tuu0lXgH", -- Webhook 
 
-    ["Boost FPS"] = true,
-    ["Black Screen"] = true,
+    ["Boost FPS"] = false,
+    ["Black Screen"] = false,
     ["Dino Event"] = {
         ["Auto Claim Quest"] = true,
         ["Auto Restart Quest"] = true,
@@ -149,7 +149,7 @@ getgenv().Config = {
         ["Rejoin After X Time"] = 60 -- Minutes
     },
     ["Limit Tree"] = 250,
-    ["White Screen"] = true
+    ["White Screen"] = false
 }
 
 script_key="TDuPyrufKhPobLrVfGxuMtuiCDplxXUQ";
