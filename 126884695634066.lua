@@ -6,6 +6,7 @@ getgenv().Config = {
     ["Craft Event"] = {
         ["Crafters Seed Pack"] = true,
         ["Anti Bee Egg"] = true
+        ["Ancient Seed Pack"] = true,
     },
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
@@ -109,6 +110,7 @@ getgenv().Config = {
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
     ["Dino Event"] = {
+        ["Auto Submit"] = true,
         ["Auto Claim Quest"] = true,
         ["Auto Restart Quest"] = true,
         ["Auto Trade Eggs"] = true,
