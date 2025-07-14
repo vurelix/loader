@@ -119,7 +119,7 @@ getgenv().Config = {
                        "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 100000, -- its will destroy all trees select when money >= select
-        ["Mode Destroy"] = "Custom", -- "Custom"
+        ["Mode Destroy"] = "Auto", -- "Custom"
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot", "Tomato", "Daffodil"},
         ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
         ["Destroy Untill"] = 150
@@ -139,14 +139,14 @@ getgenv().Config = {
     },
     ["Note"] = "Cyndral Hub",
     ["Pet Mode"] = {
-        ["Sell Pet"] = true,
+        ["Sell Pet"] = false,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
             ["Night Owl"] = true,
             ["Chicken"] = true,
             ["Stegosaurus"] = true,
             ["Raptor"] = true,
-            ["Bee"] = true,
+            ["Golden Lab"] = true,
         },
         ["Max Slot Pet To Sell"] = 1, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
