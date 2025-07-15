@@ -114,7 +114,7 @@ getgenv().Config = {
                        "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 100000, -- its will destroy all trees select when money >= select
-        ["Mode Destroy"] = "Auto", -- "Custom"
+        ["Mode Destroy"] = "Custom", -- "Custom"
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot", "Tomato", "Daffodil"},
         ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
         ["Destroy Untill"] = 150
