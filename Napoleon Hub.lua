@@ -1,7 +1,5 @@
 local onAuto = loadstring(game:HttpGet('https://raw.githubusercontent.com/raydjs/napoleonHub/refs/heads/main/autoExecute.lua'))()
-
 loadstring(game:HttpGet('https://raw.githubusercontent.com/raydjs/napoleonHub/refs/heads/main/src.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vurelix/loader/refs/heads/main/fps.lua'))()
 onAuto("loadstring(game:HttpGet('https://raw.githubusercontent.com/raydjs/napoleonHub/refs/heads/main/src.lua'))()")
-setfpscap(10)
-UserSettings().GameSettings.MasterVolume = 0
-game:GetService('RunService'):Set3dRenderingEnabled(false)
+onAuto("loadstring(game:HttpGet('https://raw.githubusercontent.com/vurelix/loader/refs/heads/main/fps.lua'))()")
