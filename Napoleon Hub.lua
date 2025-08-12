@@ -2,4 +2,3 @@ local onAuto = loadstring(game:HttpGet('https://raw.githubusercontent.com/raydjs
 loadstring(game:HttpGet('https://raw.githubusercontent.com/raydjs/napoleonHub/refs/heads/main/src.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/vurelix/loader/refs/heads/main/fps.lua'))()
 onAuto("loadstring(game:HttpGet('https://raw.githubusercontent.com/raydjs/napoleonHub/refs/heads/main/src.lua'))()")
-onAuto("loadstring(game:HttpGet('https://raw.githubusercontent.com/vurelix/loader/refs/heads/main/fps.lua'))()")
