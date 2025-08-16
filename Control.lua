@@ -1,4 +1,4 @@
-local Script = 'Autofarm'
+local Script = 'Redeem'
 
 if Script == 'Autofarm' then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/vurelix/loader/refs/heads/main/Napoleon%20Hub.lua'))()   
