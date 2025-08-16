@@ -6,8 +6,9 @@ local Codes = {
     'VOTE_BLOXY',
 }
 
-local Redeem = game:GetService("ReplicatedStorage").Packages._Index["sleitnick_knit@1.7.0"].knit.Services.CodeService.RF.Redeem
+local Redeem = game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.7.0"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("CodeService"):WaitForChild("RF"):WaitForChild("Redeem")
 
 for _, Code in ipairs(Codes) do 
-    Redeem:InvokeServer(Codes) 
+    Redeem:InvokeServer(Code) 
 end
+
